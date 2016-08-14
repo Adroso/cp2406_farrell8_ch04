@@ -11,16 +11,15 @@ public class FormLetterWriter {
 
     }
 
-    private static String displaySalutation(String cusLastname){
+    public static void displaySalutation(String cusLastname){
 
         System.out.println("Dear Mr. or Ms." + cusLastname + " Thank you for giving us your money.");
-        return "Dear Mr. or Ms. " + cusLastname;
     }
 
-    private static String displaySalutation(String cusLastname, String cusFirstname){
+    public static void displaySalutation(String cusLastname, String cusFirstname){
 
         System.out.println("Dear." + cusFirstname + " " + cusLastname + " Thank you for giving us your money.");
-        return "Dear Mr. or Ms. " + cusLastname;
+
     }
 
     private static String getName(String message){
